@@ -20,7 +20,7 @@ def desenhar_orbita(raio, cor=color.white, pontos=200):  # Aumentar o número de
         z = sin(angulo) * raio
         Entity(
             model='sphere',
-            scale=0.05,  # escala
+            scale=0.09,  # escala
             color=cor.tint(-0.3),  # Ajustar o tom para maior contraste
             position=(x, 0, z)
         )
