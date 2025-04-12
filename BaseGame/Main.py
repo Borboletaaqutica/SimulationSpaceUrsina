@@ -2,6 +2,9 @@ from ursina import *
 from random import randint
 from math import radians, sin, cos, pi
 
+# Precisa baixar as dependências do Ursina
+# pip install ursina
+
 app = Ursina()
 window.color = color.black
 
