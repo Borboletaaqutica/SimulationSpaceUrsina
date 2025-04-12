@@ -9,8 +9,8 @@ app = Ursina()
 window.color = color.black
 
 window.fps_counter.enabled = False
-window.entity_counter.enabled = False
-window.collider_counter.enabled = False
+# window.entity_counter.enabled = False
+# window.collider_counter.enabled = False
 window.exit_button.visible = True
 window.fullscreen = True
 
